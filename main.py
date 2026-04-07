@@ -210,6 +210,8 @@ def main():
         else:
             log("缓存会话已失效，需要重新登录")
             clear_cache()
+    else:
+        log("从缓存加载会话失败！！！！！！！！！！")
     
     if login_needed:
         log("开始新的登录流程...")
@@ -224,7 +226,7 @@ def main():
         # Step 1: 首页
         visit_homepage()
         # Step 2: sendmail (可选)
-        sendmail()
+        # sendmail()
         time.sleep(1)
         # Step 3: 登录弹窗，获取 loginhash, formhash
         html1 = get_login_form()
