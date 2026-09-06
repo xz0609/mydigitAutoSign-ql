@@ -20,7 +20,7 @@
 2. 填写以下配置：
    - 名称：`数码之家`（随意）
    - 类型：公开仓库
-   - 仓库地址：`https://wget.la/https://github.com/xz0609/mydigitAutoSign.git`
+   - 仓库地址：`https://wget.la/https://github.com/xz0609/mydigitAutoSign-ql.git`
    - 分支：`main`（按你的仓库实际分支填写）
    - 拉取目录：留空（拉取整个仓库），或填脚本所在子目录
 3. 保存后点击该订阅的 **一键执行**（拉取）按钮；
